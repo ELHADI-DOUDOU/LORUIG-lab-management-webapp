@@ -1,9 +1,6 @@
 # LORUIG-lab-management-webapp
 Web application for managing a computer science research lab — Final Project, Licence Informatique, Université de Ghardaïa.
 
-# LORUIG-lab-management-webapp
-Web application for managing a computer science research lab — Final Project, Licence Informatique, Université de Ghardaïa.
-
 # 💻 LORUIG
 
 **LORUIG** (*Laboratoire de Recherche Informatique Univ Ghardaïa*) is a web application developed to efficiently manage a computer science research laboratory. This project was completed as part of the final undergraduate thesis at the University of Ghardaïa.
