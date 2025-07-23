@@ -1,0 +1,264 @@
+
+
+<!DOCTYPE html>
+<!-- Created by Mohamed Elhadi and Sliman-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Lab informatique Ghardaia </title>
+    <link rel="stylesheet" href="../../css/bar.css">
+    <!-- Custom Styling
+    <link rel="stylesheet" href="../../css/style.css">
+
+    Admin Styling
+    <link rel="stylesheet" href="../../css/admin.css"> -->
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    </head>
+<body>
+
+
+
+
+  <!-- Admin Page Wrapper -->
+<div class="admin-wrapper">
+
+  <!-- Admin Content -->
+<div class="admin-content">
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus icon'></i>
+        <div class="logo_name">LRIUG</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="cbar.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Hi Mr Sliman</span>
+        </a>
+         <span class="tooltip">Hi Mr Sliman</span>
+      </li>
+      <li>
+       <a href="#">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">User</span>
+       </a>
+       <span class="tooltip">User</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Messages</span>
+       </a>
+       <span class="tooltip">Messages</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-pie-chart-alt-2' ></i>
+         <span class="links_name">Analytics</span>
+       </a>
+       <span class="tooltip">Analytics</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-folder' ></i>
+         <span class="links_name">File Manager</span>
+       </a>
+       <span class="tooltip">Files</span>
+     </li>
+     <!-- <li>
+       <a href="#">
+         <i class='bx bx-cart-alt' ></i>
+         <span class="links_name">Order</span>
+       </a>
+       <span class="tooltip">Order</span>
+     </li> -->
+     <li>
+       <a href="#">
+         <i class='bx bx-heart' ></i>
+         <span class="links_name">Saved</span>
+       </a>
+       <span class="tooltip">Saved</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Setting</span>
+       </a>
+       <span class="tooltip">Setting</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <!--<img src="profile.jpg" alt="profileImg">-->
+           <div class="name_job">
+             <div class="name">Prem Shahi</div>
+             <div class="job">Web designer</div>
+           </div>
+         </div>
+         <a href="logout.php"><i class='bx bx-log-out' id="log_out" ></i></a>
+     </li>
+    </ul>
+
+  </div>
+
+  
+<section class="home-section">
+  <div class="text">Hi Mr Sliman</div>
+      <!-- Admin Page Wrapper -->
+  <div class="admin-wrapper">
+
+  <!-- Admin Content -->
+    <div class="manager-post">
+      <div class="button-group">
+        <a href="cbar.html" class="btn btn-big">Add Post</a>
+        <a href="ibar.html" class="btn btn-big">Manage Posts</a>
+      </div>
+
+    <div class="content">
+      <h2 class="page-title">Manage Posts</h2>
+        <form action="create.html" method="post">
+          <div>
+            <label>Title</label>
+            <input type="text" name="title" class="text-input">
+          </div>
+          <div>
+            <label>Body</label>
+            <textarea name="body" id="body"></textarea>
+          </div>
+          <div>
+            <label>Image</label>
+            <input type="file" name="image" class="text-input">
+          </div>
+          <div>
+            <label>Topic</label>
+            <select name="topic" class="text-input">
+              <option value="Poetry">Poetry</option>
+              <option value="Life Lessons">Life Lessons</option>
+            </select>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-big">Add Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+      <!-- // Admin Content -->
+  </div>
+    <!-- // Page Wrapper -->
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="contact" id="contact">
+
+  <h1 class="heading">
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>a</span>
+      <span>c</span>
+      <span>t</span>
+  </h1>
+
+  <div class="row">
+
+      <div class="image">
+          <img src="images/contact-img.svg" alt="">
+      </div>
+
+      <form action="">
+          <div class="inputBox">
+              <input type="text" placeholder="name">
+              <input type="email" placeholder="email">
+          </div>
+          <div class="inputBox">
+              <input type="number" placeholder="number">
+              <input type="text" placeholder="subject">
+          </div>
+          <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit" class="btn" value="send message">
+      </form>
+
+  </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+  <div class="swiper-container brand-slider">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+      </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+  let sidebar = document.querySelector(".sidebar");
+  let closeBtn = document.querySelector("#btn");
+  let searchBtn = document.querySelector(".bx-search");
+
+  closeBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("open");
+    menuBtnChange();//calling the function(optional)
+  });
+
+  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+    sidebar.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+  });
+
+  // following are the code to change sidebar button(optional)
+  function menuBtnChange() {
+   if(sidebar.classList.contains("open")){
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   }else {
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+   }
+  }
+  </script>
+</body>
+</html>
